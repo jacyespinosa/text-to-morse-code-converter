@@ -29,3 +29,8 @@ morse_code = {
 }
 
 
+#Ask for user input
+def ask_input():
+    user_input = input('Enter text: ').upper()
+    user_input = list(user_input)
+    return user_input
